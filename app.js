@@ -12,7 +12,7 @@ const initialState = () => ({
   state: 'S1',
   filter: 'all',
   showtime: 'Sat 2:15 PM • CINÉXL Ultimate Lounger®',
-  seats: ['E7', 'E8'],
+  seats: ['F7', 'F8'],
   ticketQty: 2,
   checkoutMode: 'Guest Checkout',
   drinksQty: 2,
