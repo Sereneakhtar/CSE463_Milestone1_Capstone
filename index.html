@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harkins Theatres — CSE 463 Interactive Prototype (S1–S7)</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <header>
+    <div class="brand">Harkins <span>CINÉXL</span> Prototype</div>
+    <div class="top-actions">
+      <span class="badge" id="header-state">State: S1</span>
+      <span class="badge">Budget Cap: $55.00</span>
+      <button type="button" onclick="resetPrototype()">Reset Prototype</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <main class="panel" id="main-view"></main>
+    <aside class="panel" id="summary-view"></aside>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
